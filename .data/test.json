@@ -1,0 +1,528 @@
+{
+    "code": 10000,
+    "msg": "操作成功",
+    "data": {
+      "id": 404,
+      "uuid": "10001404",
+      "character_name": "丝瓜卡夫卡",
+      "area_id": 6,
+      "area_name": "莫古力",
+      "group_id": 6,
+      "group_name": "拂晓之间",
+      "avatar": "https://ff14risingstones.gcloud.com.cn/appeal/20230905/10001404/1693920327630_50fb4a58IMG_7537.jpeg",
+      "profile": "国服制作人",
+      "weekday_time": "10:00-24:00",
+      "weekend_time": "12:00-24:00",
+      "qq": null,
+      "career_publish": 1,
+      "guild_publish": 1,
+      "create_time_publish": 1,
+      "last_login_time_publish": 1,
+      "play_time_publish": 1,
+      "house_info_publish": 1,
+      "washing_num_publish": 1,
+      "achieve_publish": 1,
+      "resently_publish": 1,
+      "experience": "171",
+      "theme_id": null,
+      "test_limited_badge": 0,
+      "posts2_creator_badge": 0,
+      "admin_tag": 2,
+      "publish_tab": "create_time,last_login_time,play_time",
+      "achieve_tab": "1,2,20,21,22,23,24,3,4",
+      "treasure_times_publish": 1,
+      "kill_times_publish": 1,
+      "newrank_publish": 1,
+      "crystal_rank_publish": 1,
+      "fish_times_publish": 1,
+      "collapse_badge": 1,
+      "achieveInfo": [
+        {
+          "medal_id": "4",
+          "medal_type": "绝本通关",
+          "achieve_id": "3074",
+          "achieve_time": "2023-08-07 21:45:05",
+          "group_id": "1638",
+          "character_name": "",
+          "medal_type_id": "1",
+          "achieve_name": "征服绝境·龙诗战争",
+          "area_id": "6",
+          "achieve_detail": "在幻想龙诗绝境战中成功平定龙诗战争。",
+          "part_date": "2023-08-07"
+        },
+        {
+          "medal_id": "24",
+          "medal_type": "剧情通关",
+          "achieve_id": "2958",
+          "achieve_time": "2022-03-30 10:55:16",
+          "group_id": "6",
+          "character_name": "",
+          "medal_type_id": "2",
+          "achieve_name": "晓月之终途",
+          "area_id": "6",
+          "achieve_detail": "完成任务“晓月之终途”。",
+          "part_date": "2022-03-30"
+        },
+        {
+          "medal_id": "2",
+          "medal_type": "绝本通关",
+          "achieve_id": "2107",
+          "achieve_time": "2022-02-21 22:36:38",
+          "group_id": "1632",
+          "character_name": "",
+          "medal_type_id": "1",
+          "achieve_name": "征服绝境·究极神兵",
+          "area_id": "6",
+          "achieve_detail": "在究极神兵绝境战中成功讨伐究极神兵。",
+          "part_date": "2022-02-21"
+        },
+        {
+          "medal_id": "1",
+          "medal_type": "绝本通关",
+          "achieve_id": "1993",
+          "achieve_time": "2021-11-21 23:09:43",
+          "group_id": "1638",
+          "character_name": "",
+          "medal_type_id": "1",
+          "achieve_name": "征服绝境·巴哈姆特",
+          "area_id": "6",
+          "achieve_detail": "在巴哈姆特绝境战中战胜至尊巴哈姆特。",
+          "part_date": "2021-11-21"
+        },
+        {
+          "medal_id": "3",
+          "medal_type": "绝本通关",
+          "achieve_id": "2444",
+          "achieve_time": "2020-06-18 22:25:58",
+          "group_id": "1635",
+          "character_name": "",
+          "medal_type_id": "1",
+          "achieve_name": "征服绝境·亚历山大",
+          "area_id": "6",
+          "achieve_detail": "在亚历山大绝境战中战胜亚历山大。",
+          "part_date": "2020-06-18"
+        },
+        {
+          "medal_id": "23",
+          "medal_type": "剧情通关",
+          "achieve_id": "2298",
+          "achieve_time": "2019-10-30 11:12:50",
+          "group_id": "6",
+          "character_name": "",
+          "medal_type_id": "2",
+          "achieve_name": "暗影之逆焰",
+          "area_id": "6",
+          "achieve_detail": "完成任务“暗影之逆焰”。",
+          "part_date": "2019-10-30"
+        },
+        {
+          "medal_id": "22",
+          "medal_type": "剧情通关",
+          "achieve_id": "1794",
+          "achieve_time": "2017-10-07 22:33:32",
+          "group_id": "26",
+          "character_name": "",
+          "medal_type_id": "2",
+          "achieve_name": "红莲之狂潮",
+          "area_id": "1",
+          "achieve_detail": "完成任务“红莲之狂潮”。",
+          "part_date": "2017-10-07"
+        },
+        {
+          "medal_id": "21",
+          "medal_type": "剧情通关",
+          "achieve_id": "1139",
+          "achieve_time": "2015-12-24 11:20:13",
+          "group_id": "6",
+          "character_name": "",
+          "medal_type_id": "2",
+          "achieve_name": "苍穹之禁城",
+          "area_id": "1",
+          "achieve_detail": "完成任务“苍穹之禁城”。",
+          "part_date": "2015-12-24"
+        },
+        {
+          "medal_id": "20",
+          "medal_type": "剧情通关",
+          "achieve_id": "788",
+          "achieve_time": "2014-09-18 22:24:15",
+          "group_id": "6",
+          "character_name": "",
+          "medal_type_id": "2",
+          "achieve_name": "光之战士",
+          "area_id": "1",
+          "achieve_detail": "完成任务“超越幻想，究极神兵”。",
+          "part_date": "2014-09-18"
+        }
+      ],
+      "achieveTopInfo": [
+        {
+          "medal_id": "1",
+          "medal_type": "绝本通关",
+          "achieve_time": "2021-11-21 23:09:43",
+          "a.achieve_id": "1993",
+          "group_id": "1638",
+          "character_name": "",
+          "medal_type_id": "1",
+          "achieve_name": "征服绝境·巴哈姆特",
+          "area_id": "6",
+          "achieve_detail": "在巴哈姆特绝境战中战胜至尊巴哈姆特。",
+          "part_date": "2021-11-21"
+        },
+        {
+          "medal_id": "2",
+          "medal_type": "绝本通关",
+          "achieve_time": "2022-02-21 22:36:38",
+          "a.achieve_id": "2107",
+          "group_id": "1632",
+          "character_name": "",
+          "medal_type_id": "1",
+          "achieve_name": "征服绝境·究极神兵",
+          "area_id": "6",
+          "achieve_detail": "在究极神兵绝境战中成功讨伐究极神兵。",
+          "part_date": "2022-02-21"
+        },
+        {
+          "medal_id": "20",
+          "medal_type": "剧情通关",
+          "achieve_time": "2014-09-18 22:24:15",
+          "a.achieve_id": "788",
+          "group_id": "6",
+          "character_name": "",
+          "medal_type_id": "2",
+          "achieve_name": "光之战士",
+          "area_id": "1",
+          "achieve_detail": "完成任务“超越幻想，究极神兵”。",
+          "part_date": "2014-09-18"
+        },
+        {
+          "medal_id": "21",
+          "medal_type": "剧情通关",
+          "achieve_time": "2015-12-24 11:20:13",
+          "a.achieve_id": "1139",
+          "group_id": "6",
+          "character_name": "",
+          "medal_type_id": "2",
+          "achieve_name": "苍穹之禁城",
+          "area_id": "1",
+          "achieve_detail": "完成任务“苍穹之禁城”。",
+          "part_date": "2015-12-24"
+        },
+        {
+          "medal_id": "22",
+          "medal_type": "剧情通关",
+          "achieve_time": "2017-10-07 22:33:32",
+          "a.achieve_id": "1794",
+          "group_id": "26",
+          "character_name": "",
+          "medal_type_id": "2",
+          "achieve_name": "红莲之狂潮",
+          "area_id": "1",
+          "achieve_detail": "完成任务“红莲之狂潮”。",
+          "part_date": "2017-10-07"
+        },
+        {
+          "medal_id": "23",
+          "medal_type": "剧情通关",
+          "achieve_time": "2019-10-30 11:12:50",
+          "a.achieve_id": "2298",
+          "group_id": "6",
+          "character_name": "",
+          "medal_type_id": "2",
+          "achieve_name": "暗影之逆焰",
+          "area_id": "6",
+          "achieve_detail": "完成任务“暗影之逆焰”。",
+          "part_date": "2019-10-30"
+        },
+        {
+          "medal_id": "24",
+          "medal_type": "剧情通关",
+          "achieve_time": "2022-03-30 10:55:16",
+          "a.achieve_id": "2958",
+          "group_id": "6",
+          "character_name": "",
+          "medal_type_id": "2",
+          "achieve_name": "晓月之终途",
+          "area_id": "6",
+          "achieve_detail": "完成任务“晓月之终途”。",
+          "part_date": "2022-03-30"
+        },
+        {
+          "medal_id": "3",
+          "medal_type": "绝本通关",
+          "achieve_time": "2020-06-18 22:25:58",
+          "a.achieve_id": "2444",
+          "group_id": "1635",
+          "character_name": "",
+          "medal_type_id": "1",
+          "achieve_name": "征服绝境·亚历山大",
+          "area_id": "6",
+          "achieve_detail": "在亚历山大绝境战中战胜亚历山大。",
+          "part_date": "2020-06-18"
+        },
+        {
+          "medal_id": "4",
+          "medal_type": "绝本通关",
+          "achieve_time": "2023-08-07 21:45:05",
+          "a.achieve_id": "3074",
+          "group_id": "1638",
+          "character_name": "",
+          "medal_type_id": "1",
+          "achieve_name": "征服绝境·龙诗战争",
+          "area_id": "6",
+          "achieve_detail": "在幻想龙诗绝境战中成功平定龙诗战争。",
+          "part_date": "2023-08-07"
+        }
+      ],
+      "careerLevel": [
+        {
+          "career": "制革匠",
+          "character_level": "36",
+          "part_date": "2024-08-12",
+          "update_date": "2024-08-10 22:51:10",
+          "career_type": "能工巧匠"
+        },
+        {
+          "career": "刻木匠",
+          "character_level": "17",
+          "part_date": "2024-08-12",
+          "update_date": "2024-08-10 22:51:10",
+          "career_type": "能工巧匠"
+        },
+        {
+          "career": "占星术士",
+          "character_level": "0",
+          "part_date": "2024-08-12",
+          "update_date": "2024-08-10 22:51:10",
+          "career_type": "治疗职业"
+        },
+        {
+          "career": "召唤师",
+          "character_level": "50",
+          "part_date": "2024-08-12",
+          "update_date": "2024-08-10 22:51:10",
+          "career_type": "远程魔法职业"
+        },
+        {
+          "career": "吟游诗人",
+          "character_level": "0",
+          "part_date": "2024-08-12",
+          "update_date": "2024-08-10 22:51:10",
+          "career_type": "远程物理职业"
+        },
+        {
+          "career": "园艺工",
+          "character_level": "44",
+          "part_date": "2024-08-12",
+          "update_date": "2024-08-10 22:51:10",
+          "career_type": "大地使者"
+        },
+        {
+          "career": "学者",
+          "character_level": "50",
+          "part_date": "2024-08-12",
+          "update_date": "2024-08-10 22:51:10",
+          "career_type": "治疗职业"
+        },
+        {
+          "career": "忍者",
+          "character_level": "70",
+          "part_date": "2024-08-12",
+          "update_date": "2024-08-10 22:51:10",
+          "career_type": "近战职业"
+        },
+        {
+          "career": "战士",
+          "character_level": "88",
+          "part_date": "2024-08-12",
+          "update_date": "2024-08-10 22:51:10",
+          "career_type": "防护职业"
+        },
+        {
+          "career": "捕鱼人",
+          "character_level": "17",
+          "part_date": "2024-08-12",
+          "update_date": "2024-08-10 22:51:10",
+          "career_type": "大地使者"
+        },
+        {
+          "career": "暗黑骑士",
+          "character_level": "30",
+          "part_date": "2024-08-12",
+          "update_date": "2024-08-10 22:51:10",
+          "career_type": "防护职业"
+        },
+        {
+          "career": "机工士",
+          "character_level": "90",
+          "part_date": "2024-08-12",
+          "update_date": "2024-08-10 22:51:10",
+          "career_type": "远程物理职业"
+        },
+        {
+          "career": "武僧",
+          "character_level": "84",
+          "part_date": "2024-08-12",
+          "update_date": "2024-08-10 22:51:10",
+          "career_type": "近战职业"
+        },
+        {
+          "career": "武士",
+          "character_level": "90",
+          "part_date": "2024-08-12",
+          "update_date": "2024-08-10 22:51:10",
+          "career_type": "近战职业"
+        },
+        {
+          "career": "炼金术士",
+          "character_level": "2",
+          "part_date": "2024-08-12",
+          "update_date": "2024-08-10 22:51:10",
+          "career_type": "能工巧匠"
+        },
+        {
+          "career": "烹调师",
+          "character_level": "15",
+          "part_date": "2024-08-12",
+          "update_date": "2024-08-10 22:51:10",
+          "career_type": "能工巧匠"
+        },
+        {
+          "career": "白魔法师",
+          "character_level": "56",
+          "part_date": "2024-08-12",
+          "update_date": "2024-08-10 22:51:10",
+          "career_type": "治疗职业"
+        },
+        {
+          "career": "绝枪战士",
+          "character_level": "0",
+          "part_date": "2024-08-12",
+          "update_date": "2024-08-10 22:51:10",
+          "career_type": "防护职业"
+        },
+        {
+          "career": "舞者",
+          "character_level": "90",
+          "part_date": "2024-08-12",
+          "update_date": "2024-08-10 22:51:10",
+          "career_type": "远程物理职业"
+        },
+        {
+          "career": "裁衣匠",
+          "character_level": "90",
+          "part_date": "2024-08-12",
+          "update_date": "2024-08-10 22:51:10",
+          "career_type": "能工巧匠"
+        },
+        {
+          "career": "贤者",
+          "character_level": "0",
+          "part_date": "2024-08-12",
+          "update_date": "2024-08-10 22:51:10",
+          "career_type": "治疗职业"
+        },
+        {
+          "career": "赤魔法师",
+          "character_level": "0",
+          "part_date": "2024-08-12",
+          "update_date": "2024-08-10 22:51:10",
+          "career_type": "远程魔法职业"
+        },
+        {
+          "career": "采矿工",
+          "character_level": "0",
+          "part_date": "2024-08-12",
+          "update_date": "2024-08-10 22:51:10",
+          "career_type": "大地使者"
+        },
+        {
+          "career": "钐镰客",
+          "character_level": "90",
+          "part_date": "2024-08-12",
+          "update_date": "2024-08-10 22:51:10",
+          "career_type": "近战职业"
+        },
+        {
+          "career": "铸甲匠",
+          "character_level": "0",
+          "part_date": "2024-08-12",
+          "update_date": "2024-08-10 22:51:10",
+          "career_type": "能工巧匠"
+        },
+        {
+          "career": "锻铁匠",
+          "character_level": "0",
+          "part_date": "2024-08-12",
+          "update_date": "2024-08-10 22:51:10",
+          "career_type": "能工巧匠"
+        },
+        {
+          "career": "雕金匠",
+          "character_level": "0",
+          "part_date": "2024-08-12",
+          "update_date": "2024-08-10 22:51:10",
+          "career_type": "能工巧匠"
+        },
+        {
+          "career": "青魔法师",
+          "character_level": "34",
+          "part_date": "2024-08-12",
+          "update_date": "2024-08-10 22:51:10",
+          "career_type": "设限特职"
+        },
+        {
+          "career": "骑士",
+          "character_level": "90",
+          "part_date": "2024-08-12",
+          "update_date": "2024-08-10 22:51:10",
+          "career_type": "防护职业"
+        },
+        {
+          "career": "黑魔法师",
+          "character_level": "26",
+          "part_date": "2024-08-12",
+          "update_date": "2024-08-10 22:51:10",
+          "career_type": "远程魔法职业"
+        },
+        {
+          "career": "龙骑士",
+          "character_level": "90",
+          "part_date": "2024-08-12",
+          "update_date": "2024-08-10 22:51:10",
+          "career_type": "近战职业"
+        }
+      ],
+      "characterDetail": [
+        {
+          "create_time": "2014-07-20",
+          "gender": "0",
+          "last_login_time": "2024-08-10",
+          "race": "1",
+          "character_name": "丝瓜卡夫卡",
+          "area_id": "6",
+          "play_time": "256天16小时50分钟",
+          "house_info": "高脚孤丘-S",
+          "group_id": "6",
+          "guild_name": "曙光微明",
+          "fc_id": "9381138761301098603",
+          "tribe": "1",
+          "guild_tag": "拂晓",
+          "washing_num": "39",
+          "part_date": "2024-08-12",
+          "treasure_times": "4",
+          "kill_times": "4273",
+          "newrank": "20",
+          "crystal_rank": "水晶872分",
+          "fish_times": "127"
+        }
+      ],
+      "followFansiNum": {
+        "followNum": 3,
+        "fansNum": 50130
+      },
+      "interactNum": "3",
+      "beLikedNum": "64792",
+      "relation": 0
+    }
+  }

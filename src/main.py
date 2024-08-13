@@ -5,9 +5,9 @@ import glob
 import os
 
 
-def get(cookie):
+def get(cookie, uuid):
     # Define the URL
-    url = 'https://apiff14risingstones.web.sdo.com/api/home/userInfo/getUserInfo'
+    url = 'https://apiff14risingstones.web.sdo.com/api/home/userInfo/getUserInfo?uuid=' + uuid
 
     # Define the headers
     headers = {
@@ -26,7 +26,7 @@ def get(cookie):
 
     # TEST: Open the JSON file with UTF-8 encoding
     # with open('../.data/test.json', encoding='utf-8') as sampleresponse:
-    #     data = json.load(sampleresponse)
+    #    data = json.load(sampleresponse)
 
 
     character_name = data['data']['character_name']
@@ -35,7 +35,7 @@ def get(cookie):
     # Compare data and get differences
     Diff = compare(data['data'])
 
-    # Log the differences or note that there are none
+    # Log the differences or note that there is no difference
     diff_file = f'../.data/{server_name}-{character_name}-diff.json'
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     
@@ -92,4 +92,10 @@ def compare(data):
 # Run and get cookie in arg
 if __name__ == '__main__':
     import sys
-    get(sys.argv[1])
+#    for i in range(1, len(sys.argv[2])):
+#        get(sys.argv[1], i)
+    if len(sys.argv) < 3:
+        print("Usage: main.py <cookie> <uuid#1> ...")
+
+    for i in range(2, len(sys.argv)):
+        get(sys.argv[1], sys.argv[i])

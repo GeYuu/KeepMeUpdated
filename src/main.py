@@ -3,7 +3,9 @@ import json
 import datetime
 import glob
 import os
+import time
 
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 def get(cookie, uuid):
     # Define the URL
@@ -38,7 +40,7 @@ def get(cookie, uuid):
     # Log the differences or note that there is no difference
     diff_file = f'../.data/{server_name}-{character_name}-diff.json'
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    
+
     if Diff:
         diff_entry = {timestamp: Diff}
     else:
@@ -67,8 +69,12 @@ def compare(data):
     character_name = data['character_name']
     server_name = data['group_name']
 
+    print("comparing started for %s @ %s" % (character_name, server_name))
+
+
     # Get the latest file created
     latest_files = glob.glob(f'../.data/{server_name}-{character_name}-*.json')
+    latest_files = [file for file in latest_files if 'diff' not in file]
 
     # If there are no previous files, return an empty dict
     if not latest_files:
@@ -77,8 +83,13 @@ def compare(data):
     latest_file = max(latest_files, key=os.path.getctime)
 
     # Open the latest file and compare the data
-    with open(latest_file, encoding='utf-8') as f:
-        prv_data = json.load(f)['data']
+    try:
+
+        with open(latest_file, encoding='utf-8') as f:
+            prv_data = json.load(f)['data']
+    except:
+        print(print(f"Error: Could not open {latest_file}"))
+        return FYI
 
     # Compare the relevant fields and store differences
     if data['characterDetail'][0]['kill_times'] != prv_data['characterDetail'][0]['kill_times']:
@@ -98,4 +109,5 @@ if __name__ == '__main__':
         print("Usage: main.py <cookie> <uuid#1> ...")
 
     for i in range(2, len(sys.argv)):
+        time.sleep(5)
         get(sys.argv[1], sys.argv[i])
